@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>form</title>
+
+  <style>
+    body{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: whitesmoke;
+    }
+
+    .header img {
+      margin-right: 15px;
+      margin-left: 20px;
+    }
+
+    .Contact {
+      margin-right: 15px;
+      margin-left: 20px;
+    }
+
+    .form {
+      margin-right: 15px;
+      margin-left: 20px;
+    }
+
+    textarea {
+      resize: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <img src="Assets/images/255.jpg" width="30%"/>
+    <img src="Assets/images/255.jpg" width="30%"/>
+    <img src="Assets/images/255.jpg" width="30%"/>
+  </div>
+
+  <div class="Contact">
+    <h1>
+      Contact us
+    </h1>
+
+    <p>Paragraphs are the <b>building</b> blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p>
+  </div>
+
+  <div class="form">
+    <form action="">
+      <table>
+        <tr>
+          <td><label for="fname">Enter your name:</label></td>
+
+          <td><label for="email">Enter your email:</label></td>
+
+          <td><label for="phone">Enter your phone:</label></td>
+        </tr>
+
+        <tr>
+          <td><input type="text" id="fname" name="fname" placeholder="Mohamed Ibrahim"></td>
+
+          <td><input type="email" id="email" name="email" placeholder="email@email.com"></td>
+
+          <td><input type="tel" id="phone" name="phone" placeholder="01000000000"></td>
+        </tr>
+
+        <tr>
+          <td colspan="3"><label for="message">Enter your message:</label></td>
+        </tr>
+
+        <tr>
+          <td colspan="3"><textarea id="message" name="message" rows="8 " cols="50" placeholder="your message here"></textarea></td>
+        </tr>
+
+        <tr>
+          <td colspan="3"><button type="button">Send your message</button></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</body>
+</html>
